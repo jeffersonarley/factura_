@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=>, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="padre">
+    <div class="primer">
+      <div class="grid-logo-nombre">
+        <img src="/img/img.png" class="logo">
+        <div>
+          <h1>Brand Name</h1>
+          <p class="texto-pequeno">tachsc space namesis</p>
+        </div>
+      </div>
+      <h2>INVOICE</h2>
+    </div>
+
+    <div class="linearoja"></div>
+
+    <div class="segundo">
+      <div>
+        <h3>Invoice to</h3>
+        <h3>Dwdka Clart</h3>
+        <p>24 horas de sdfe</p>
+        <p>camelasdnrf</p>
+        <p>13412341</p>
+      </div>
+      <div class="medio">
+        <h3>Invoice#</h3>
+        <p>Date:</p>
+      </div>
+      <div class="dos">
+        <p>53255</p>
+        <p>10/02/2020</p>
+      </div>
+    </div>
+
+    <div class="tres">
+      <div class="fila">
+        <div class="col">SL.</div>
+        <div class="col">Item Description</div>
+        <div class="col">Price</div>
+        <div class="col">Qty.</div>
+        <div class="col">Total</div>
+      </div>
+    </div>
+
+    <div class="filas-productos">
+      <div class="fila">
+        <div class="col">1</div>
+        <div class="col">Lorem Ipsum Dolor</div>
+        <div class="col">$50.00</div>
+        <div class="col">1</div>
+        <div class="col">$50.00</div>
+      </div>
+      <div class="fila">
+        <div class="col">2</div>
+        <div class="col">Pellentesque id neque ligula</div>
+        <div class="col">$20.00</div>
+        <div class="col">3</div>
+        <div class="col">$60.00</div>
+      </div>
+      <div class="fila">
+        <div class="col">3</div>
+        <div class="col">Interdum et malesuada fames</div>
+        <div class="col">$10.00</div>
+        <div class="col">2</div>
+        <div class="col">$20.00</div>
+      </div>
+      <div class="fila">
+        <div class="col">4</div>
+        <div class="col">Vivamus volutpat faucibus</div>
+        <div class="col">$90.00</div>
+        <div class="col">1</div>
+        <div class="col">$90.00</div>
+      </div>
+      <div class="linea"></div>
+    </div>
+
+    <div class="linea-abajo"></div>
+
+    <div class="final-factura">
+      <div class="info-pago">
+        <p><strong>Thank you for your business</strong></p>
+        <div class="pegar">
+          <p id="pagop"><strong>Payment Info:</strong></p>
+          <p>Account #:  1234 5678 9012</p>
+          
+          <p>A/C Name: Lorem Ipsum</p>
+          <p>Bank Details: Add your details</p>
+        </div>
+        <div class="lineai"></div>
+        <p id="hola"><strong>Terms & Conditions</strong></p>
+        <div class="letrapeque">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+           Proin dictum convallis nisl, ut vehicula velit. Nulla porta.</p>
+        </div>
+      </div>
+
+      <div class="resumen-factura">
+        <div class="linea-resumen">
+          <span>Sub Total:</span>
+          <span>$220.00</span>
+        </div>
+        <div class="linea-resumen">
+          <span>Tax:</span>
+          <span>0.00%</span>
+        </div>
+        <div class="linea00"></div>
+        <div class="linea-total">
+          <span>Total:</span>
+          <span><strong>$220.00</strong></span>
+        </div>
+        <div class="firma-autorizada">
+          <div class="linea-firma"></div>
+          <p>Authorised Sign</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="ultimoo"></div>
+  </div>
+
+  <style>
+    body {
+      margin: 0%;
+      padding: 10%;
+      place-items: center;
+      background-color: #e2dfdf;
+    }
+
+    .padre {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 50%;
+      border: 2px solid rgba(51, 51, 51, 0.2);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
+      padding: 0%;
+      margin: auto;
+    }
+
+    .primer {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      background-color: rgb(41, 39, 39);
+      color: white;
+      padding: 3%;
+      position: relative;
+      margin: 0%;
+    }
+
+    .grid-logo-nombre {
+      display: grid;
+      grid-template-columns: auto 1fr;  
+      align-items: center;
+      gap: 10px;
+      grid-column: 1 / 2;
+    }
+
+    .grid-logo-nombre h1,
+    .grid-logo-nombre p {
+      margin: 0;
+      text-align: left;  
+    }
+
+    .logo {
+      width: 40px;
+      height: auto;
+    }
+
+    .primer p {
+      grid-column: 1/2;
+      margin: 0;
+    }
+
+    .primer h2 {
+      color: #ef3e5d;
+      font-size: 260%;
+      font-weight: bold;
+      grid-column: 2/2;
+      text-align: right;
+      margin: 0;
+      padding-right: 3%;
+    }
+
+    .linearoja {
+      height: 8px;
+      background-color: #ef3e5d;
+      width: 100%;
+    }
+
+    .segundo {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      background-color: rgb(41, 39, 39);
+      color: white;
+      padding: 4%;
+      gap: 10px;
+      margin: 0;
+    }
+
+    .segundo p {
+      font-size: 65%;
+      margin: 0;
+    }
+
+    .segundo h3 {
+      margin: 0;
+    }
+
+    .medio {
+      padding-left: 99%;
+    }
+
+    .dos {
+      padding-left: 60%;
+    }
+
+    .tres {
+      display: grid;
+      grid-template-columns: 1fr;
+      background-color: rgb(224, 224, 224);
+      position: relative;
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+    }
+
+    .fila {
+      display: grid;
+      grid-template-columns: 0.7fr 2fr 1fr 1fr 1fr;
+      font-size: 90%;
+      padding: 20px;
+      color: rgb(73, 69, 69);
+      border-top: 1px solid #aca8a8;
+    }
+
+    .col {
+      text-align: left;
+      padding: 0 10px;
+    }
+
+    .linea {
+      border-top: 1px solid #e0e0e0;
+    }
+
+    .linea-abajo {
+      border-top: 1px solid #bebcbc;
+      margin-top: 60px;
+    }
+
+    .final-factura {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 40px;
+      margin-top: 30px;
+      font-size: 90%;
+      color: #333;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .info-pago {
+      display: grid;
+      grid-template-rows: repeat(auto-fit, auto);
+      gap: 0;
+      padding-right: 10px;
+    }
+
+    .resumen-factura {
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      gap: 15px;
+      align-content: start;
+      padding-left: 10px;
+    }
+
+    .linea-resumen,
+    .linea-total {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 4px 0;
+    }
+
+    .linea-total {
+      font-size: 105%;
+      font-weight: bold;
+    }
+
+    .firma-autorizada {
+      display: grid;
+      justify-items: center;
+      margin-top: 40px;
+    }
+
+    .linea-firma {
+      width: 80%;
+      border-top: 1px solid #000;
+      margin-bottom: 5px;
+    }
+
+    .info-pago p,
+    .info-pago strong {
+      margin: 0 0 8px 0;
+      padding: 0;
+    }
+
+    .ultimoo {
+      height: 20px;
+      background-color: rgb(41, 39, 39);
+      width: 100%;
+    }
+
+    .lineai {
+      border-top: 1.6px solid #000000;
+      width: 20%;
+    }
+
+    .pegar p {
+      margin: 0;
+      padding: 0;
+      font-size: 80%;
+    }
+    .letrapeque{
+       margin: 0;
+      padding: 0;
+      font-size: 80%;
+    }
+    
+    #hola{
+      font-size: 140%;
+    }
+
+    
+
+    #pagop{
+      font-size: 140%;
+    }
+
+
+    .texto-pequeno {
+      font-size: 12px;
+      margin: 0;
+      color: #ccc;
+    }
+
+
+   @media (max-width: 930px) {
+  .padre {
+    width: 95%;
+    margin: 20px auto;
+    padding: 0%;
+  }
+
+  .primer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .grid-logo-nombre {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .primer h2 {
+    grid-column: 1;
+    text-align: center;
+    padding: 0;
+    font-size: 200%;
+  }
+
+  .segundo {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .medio, .dos {
+    padding-left: 0;
+  }
+
+  .fila {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-flow: row;
+    gap: 10px;
+    font-size: 85%;
+  }
+
+  .tres {
+    overflow-x: auto;
+  }
+
+  .final-factura {
+    grid-template-columns: 1fr;
+  }
+
+  .firma-autorizada {
+    margin-top: 20px;
+  }
+
+  .resumen-factura {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
+  .linea-resumen,
+  .linea-total {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .info-pago {
+    padding-right: 0;
+  }
+}
+
+  </style>
+</body>
+</html>
