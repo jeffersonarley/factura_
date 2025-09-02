@@ -240,7 +240,22 @@ body {
   .firma .linea-firma { margin: 0 auto; }
 
   /* LINEA ANTES DE TÉRMINOS */
-  .linea_ { width: 60%; } /* un poco más ancha en móviles */
+  .linea_ { width: 60%; }
+  @media (max-width: 380px) {
+  .linea_ {
+    width: 80%;       /* se hace más ancha que 50% pero sigue centrada */
+    margin: 15px auto; /* centrado horizontal */
+  }
+}
+ 
+
+
+  .linea_ { width: 60%; }
+  @media (max-width: 470px) {
+  .linea_ {
+    width: 80%;       /* se hace más ancha que 50% pero sigue centrada */
+    margin: 15px auto; /* centrado horizontal */
+  }
 }
 
 /* MÓVILES MUY PEQUEÑOS */
