@@ -16,7 +16,7 @@ body {
   width: 600px;
   max-width: 100%; 
   margin: 40px auto;
-  border: 2px solid rgba(51, 51, 51, 0.2);
+   
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
   background-color: white;
 }
@@ -354,4 +354,4 @@ body {
         margin: 0;
     }
 }
-}
+
