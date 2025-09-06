@@ -349,4 +349,10 @@ body {
 .fila-{
   font-size: 14px;
 }
+@media (max-width: 480px) {
+    .primer img {
+        height: 100px;
+        margin: 0;
+    }
+}
 }
