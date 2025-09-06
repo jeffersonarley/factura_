@@ -329,6 +329,8 @@ body {
     font-size: 18px;   /* más pequeña */
 
 }
+#p { font-size: 80%;
+}
 .segundo .derecha p {
     font-size: 14px;   /* más pequeña */
 }
@@ -338,10 +340,13 @@ body {
 }
 
 .fila-info{
-  font-size: 14px;
+  font-size: 18px;
 }
  
 .terminos{
+  font-size: 14px;
+}
+.fila-{
   font-size: 14px;
 }
 }
